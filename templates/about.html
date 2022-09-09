@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+{% extends "layout.html" %}
+{% block content %}
+<img src="/static/css/img/logod.png" alt="" width="100" height="40" align="right">
+<br>
+<div class="jumbotron ">
+    <h6 class="text-white ">Proveedor de equipos y Servicios Industriales de Automatización, DIICSA
+        (Desarrollo de Ingeniería, Integración y Comercialización S.A de C.V), Es una empresa fundada en el municipio de
+        Querétaro por Víctor Hugo Trejo y Enrique Rivera en 2010, en sus inicios contaba únicamente con dos integrantes,
+        que se encargaban de atender trabajos de programación de PLC ́s (Controlador Lógico Programable). Sus primeras
+        instalaciones se realizaron en un domicilio que era rentado, con planes de expandirse en un mediano plazo. En el
+        2014 llegan al municipio de Pedro Escobedo, donde consiguen un lugar mejor adaptado para trabajar, ese mismo año
+        el personal
+        subió a 6 personas, entre las cuales se contrató a un diseñador para que comenzaran su incursión en la
+        fabricación de dispositivos para la industria y/o trabajos de actualización de equipos, logrando así un mayor
+        enfoque en el sector automotriz. En 2016 se hace la primera exportación de un dispositivo, el cual llegó a
+        Estados Unidos. En 2019 se termina la sociedad y
+        la empresa pasa estar al mando por Víctor Trejo, quien ha llevado a cabo un constante desarrollo a lo largo de
+        estos ulmos años. Actualmente la Empresa DIICSA se encuentra en expansión y se pretende un incremento en la
+        producción y el desarrollo de la gestión dentro de la industria.</h5>
+    <br>
+    <!-- Boton modal -->
+    <button type="button" class="btn btn-outline-success btn-lg d-grid gap-2 col-6 mx-auto" data-bs-toggle="modal"
+        data-bs-target="#exampleModal">
+        <h1>Misión</h1>
+    </button>
+    <br>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="exampleModalLabel" style="color:#000000">Misión</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p style="color:#000000">
+                        Automatizar Procesos Industriales integrando soluciones a tus necesidades.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-outline-success btn-lg d-grid gap-2 col-6 mx-auto" data-bs-toggle="modal"
+        data-bs-target="#staticBackdrop">
+        <h1>Visión</h1>
+    </button>
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="staticBackdropLabel" style="color:#000000">Visión</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p style="color:#000000">
+                        Ser una empresa de automatización líder la región, reconocida por nuestra calidad, servicio
+                        personalizado y confiabilidad siempre a la vanguardia tecnológica.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--Cards-->
+<div id="contenedor">
+    <div>
+        <div class="card " style="width: 20rem;">
+            <img src="/static/css/img/TEX.png" class="card-img-top" alt="...">
+        </div>
+    </div>
+    <div>
+        <div class="card" style="width: 20rem;">
+            <img src="/static/css/img/DIICSA.png" class="card-img-top" alt="...">
+        </div>
+    </div>
+</div>
+{% endblock%}

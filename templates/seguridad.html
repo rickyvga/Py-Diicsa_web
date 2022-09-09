@@ -1,0 +1,74 @@
+{% extends "layout.html" %}
+{% block content %}
+<img src="/static/css/img/logod.png" alt="" width="100" height="40" align="right">
+<br>
+<!--Jumbotron-->
+<div class="jumbotron ">
+    <h1 class="my-1 text-white ">Risk assessment.</h1>
+    <p class="lead  font-italic text-black">Ayudamos a identificar y gestionar los riesgos, cumplir con las
+        regulaciones aplicables y establecer modelos de gobierno.</p>
+</div>
+<div id="contenedor">
+    <div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="cardd" style="width: 35rem; height: 10rem;">
+
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="/static/css/img/Risk-assessment.png" class="d-block w-100" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="/static/css/img/Risk-Analysis.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <p class="lead  font-italic text-white">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            La adquisición de equipos homologados no es ni se considera garantía suficiente de eliminación de
+            riesgos para los y
+            las trabajadores. Hay que evaluar los riesgos de cada equipo comprobando que tienen las características
+            apropiadas
+            y en relación al objeto de su utilización,
+            al lugar donde se van a utilizar y en relación con el personal que lo va a utilizar.<br>
+            <br>En Diicsa tenemos al personal capacitado para ofrecerte el mejor servicio:
+        </p>
+
+    </div>
+    <div>
+        <br>
+        <br>
+        <div class="card mb-2" align="left">
+            <img src="/static/css/img/Erick.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"></h5>
+                <img src="/static/css/img/Certificado.png" class="card-img-top" alt="...">
+            </div>
+        </div>
+    </div>
+    <a class="btn btn-danger btn-lg" href="{{ url_for('contacto')}}">SOLICITAR SERVICIO</a>
+</div>
+
+
+{% endblock%}

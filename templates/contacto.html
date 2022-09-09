@@ -1,0 +1,84 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<img src="/static/css/img/logod.png" alt="" width="100" height="40" align="right">
+<br>
+<div class="jumbotron">
+    <h1 class="texini text-white">Proveedor de equipos y Servicios Industriales de
+        Automatización</h1>
+    <p class="lead  font-italic text-black">Deje sus datos y nos comunicaremos con usted a la brevedad.</p>
+</div>
+
+
+<br>
+<div class="formulario">
+    <form class="row g-4" action="https://formsubmit.co/ricardo.vega.resendiz@gmail.com" method="POST">
+        <div class="col-auto">
+            <label for="exampleFormControlTextarea1" class="form-label" style="color: beige;">Nombre.</label>
+            <label for="inputPassword2" class="visually-hidden">Name</label>
+            <input type="text" class="form-control" name="Nombre" id="name" placeholder="Name">
+        </div>
+        <div class="col-auto">
+            <label for="exampleFormControlTextarea1" class="form-label" style="color: beige;">Apellido paterno.</label>
+            <label for="inputPassword2" class="visually-hidden">Last Name</label>
+            <input type="text" class="form-control" name="Apellido Paterno"id="nameP" placeholder="Last Name">
+        </div>
+        <div class="col-auto">
+            <label for="exampleFormControlTextarea1" class="form-label" style="color: beige;">Apellido materno.</label>
+            <label for="inputPassword2" class="visually-hidden">Last Name1</label>
+            <input type="text" class="form-control" name="Apellido Materno"id="Apellido Materno" placeholder="Last Name">
+        </div>
+
+        <div class="col-7">
+            <label for="exampleFormControlTextarea1" class="form-label" style="color: beige;">Correo
+                electronico.</label>
+            <label for="inputPassword2" class="visually-hidden"></label>
+            <input type="text" class="form-control" name="E-mail" id="e-mail" placeholder="e-mail">
+        </div>
+        <div class="col-7">
+            <label for="exampleFormControlTextarea1" class="form-label" style="color: beige;">Numero telefonico.</label>
+            <label for="inputPassword2" class="visually-hidden">Name</label>
+            <input type="text" class="form-control" name="No. Telefonico" id="subject" placeholder="No.Telefonico">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label" style="color: beige;">Comentarios.</label>
+            <textarea class="form-control" name="Comentario." id="message" rows="3"></textarea>
+        </div>
+        <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-3">Confirmar</button>
+        </div>
+    </form>
+</div>
+<br>
+<br>
+<div id="contene">
+    <div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.1240520835727!2d-100.13689198490819!3d20.50114028628665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d36c2fa630bd37%3A0x2a8c5c00d883c9!2sDIICSA%20Desarrollo%20De%20Ingenier%C3%ADa%2C%20Integraci%C3%B3n%20y%20Comercializaci%C3%B3n%20S.A%20de%20C.V!5e0!3m2!1ses-419!2smx!4v1656446967415!5m2!1ses-419!2smx"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="tarjetainfo" style="width: 18rem;">
+        <br>
+        <br>
+        <img src="/static/css/img/logod.png" class="card-img-topC" alt="...">
+        <br>
+        <br>
+        <div class="card-body">
+            <br>
+            <br>
+            <h6 align="center" class="card-text" style="color: beige;">Sinaloa #13. El Chamizal<br>
+                Pedro Escobedo, Qro.<br>
+                C.P. 76700<br>
+                Tel. (01) 4482751391<br>
+                administracion@diicsaqro.com.mx
+
+            </h6>
+        </div>
+    </div>
+</div>
+
+
+{% endblock%}

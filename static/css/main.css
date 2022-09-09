@@ -1,0 +1,128 @@
+html {
+	margin: 50;
+	padding: 56;
+	box-sizing: border-box;
+	
+}
+body {
+	background: linear-gradient(rgba(5, 7, 12, 0.809),rgba(36, 82, 147, 0.75)),
+	url("/static/css/img/dicsa-fondo.png");	
+}
+/*
+a{
+	font-family: 'Syncopate', sans-serif;
+}*/
+.navbar {
+	border: rgb(66, 193, 100) 2px solid;
+}
+
+.navbar-nav {
+	font-size: 10px;
+	font-family: 'Cabin Sketch', cursive;
+}
+
+.navbar-brand:hover {
+
+	background: rgba(161, 209, 247, 0.214);
+}
+
+.jumbotron {
+	background: rgba(161, 209, 247, 0.214);
+	border: rgb(66, 193, 100) 2px solid;
+}
+/* about */
+
+.modal-content {
+	background-color: rgba(159, 171, 177, 0.985);
+}
+
+#contenedor {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#contenedor>div {
+	width: 50%;
+}
+
+.card {
+	border: rgb(66, 193, 100) 2px solid;
+	margin-left: 180px;
+}
+
+/*Ing*/
+.containg {
+	margin-left: 80px;
+}
+
+.car {
+	background-color: rgba(187, 187, 187, 0.99);
+	border: rgb(66, 193, 100) 2px solid;
+}
+
+.modalcontent {
+	border: rgb(66, 193, 100) 2px solid;
+	background-color: linear-gradient(rgb(1, 2, 6),rgb(36, 82, 147), rgb(1, 2, 6))
+	
+}
+
+
+/*Contacto ------------------------------------------------------------------*/
+.formulario {
+	border: rgba(255, 254, 254, 0) 2px solid;
+	margin: 0 auto;
+	width: 800px;
+}
+
+#contene {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-left: 100px;
+}
+
+#contene>div {
+	width: 50%;
+}
+
+.tarjetainfo {
+	margin-left: 120px;
+	
+}
+
+.letrac {
+	font-family: 'Yellowtail', cursive;
+}
+
+/*--------------------------------- Clientes */
+.tarjetasImg {
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-left: px;
+}
+
+.tarjetasImg div {
+	width: 100%;
+}
+
+.card-img-top {
+	border: rgb(66, 193, 100) 2px solid;
+}
+
+.cardi {
+	border: rgb(66, 193, 100) 2px solid;
+}
+/*------------------------------------ Maquinado --------------------------------------*/
+.card-titleM{
+	text-align: center;
+	font-size: 21px;
+}
+.card-body{
+	text-align: center;
+}
+/*----------------------------Risk----------------------*/
+
+
